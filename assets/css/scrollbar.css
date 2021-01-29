@@ -1,0 +1,30 @@
+*{
+  scrollbar-color: var(--scroll-thumb) transparent;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+  height: 7px;
+  background-color: var(--scroll-bg);
+}
+::-webkit-scrollbar-corner{
+  background: transparent;
+}
+::-webkit-scrollbar-track {
+  border-radius: var(--scroll-border-radius);
+}
+
+::-webkit-scrollbar-thumb{
+  border: var(--scroll-border);
+  border-top: 1px solid rgba(182, 228, 255, 0.5);
+  border-left: 1px solid rgba(182, 228, 255, 0.2);
+  border-bottom: 1px solid rgba(15, 22, 85, 0.5);
+  border-right: 1px solid rgba(15, 22, 85, 0.2);
+  /* border-radius: var(--scroll-border-radius); */
+  background: var(--scroll-thumb);
+  border: 1px solid var(--bg);
+}
+/* ::-webkit-scrollbar-thumb:window-inactive{ 
+  background: var(--scroll-thumb);
+} */

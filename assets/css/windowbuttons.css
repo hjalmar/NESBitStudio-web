@@ -1,0 +1,18 @@
+/* #windowbuttons{
+  right: 15rem;
+  display: flex;
+  align-items: center;
+  height: var(--titlebar-height);
+  justify-self: center !important;
+  -webkit-user-drag: none;
+} */
+
+/* #windowbuttons > a::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  filter: blur(3px);
+} */
