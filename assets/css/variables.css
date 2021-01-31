@@ -30,6 +30,7 @@
   /* colors */
   --color: rgb(195, 192, 199);
   --active-color: rgb(148, 175, 255);
+  --color-red: rgb(192, 24, 69);
 
   /* cursor */
   --canvas-cursor: none;
