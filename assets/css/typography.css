@@ -22,7 +22,12 @@ h5{
 h6{
   font-size: 19rem;
 }
-p{
+
+h11, h2, h3, h4{
+  margin: 15rem 0;
+}
+
+p, article ul{
   font-size: 14rem;
   font-weight: 300;
   line-height: 25rem;
@@ -30,4 +35,8 @@ p{
 
 ul{
   list-style: none;
+}
+
+article ul{
+  list-style: inside;
 }
