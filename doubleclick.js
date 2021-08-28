@@ -1,1 +1,0 @@
-window.not_adblocked = true;
